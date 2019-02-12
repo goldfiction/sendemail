@@ -1,0 +1,17 @@
+{
+  "name": "sendemail",
+  "version": "1.0.1",
+  "description":"this tiny cli tool sends email by 2 arguments: to and msg",
+  "repository":"https://github.com/goldfiction/sendemail.git",
+  "license":"Apache-2.0",
+  "preferGlobal": true,
+  "private":false,
+  "main":"./email.js",
+  "bin": {
+    "sendemail":"./email.js"
+  },
+  "dependencies": {
+    "gqemail":"1.0.9",
+    "commander":"2.19.0"
+  }
+}
